@@ -1,7 +1,17 @@
-.div1 {
-    background-color: brown;
+ul {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: yellow;
+
 }
 
-.div2 {
-    background-color: blue;
+li {
+
+    background-color: aliceblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 30px;
+    
 }
