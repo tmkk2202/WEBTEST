@@ -11,3 +11,17 @@
     padding: 10px;
 
 }
+
+.cont-left {
+    background-color: beige;
+    justify-content: left;
+    width: 10%;
+
+}
+
+.brand  {
+    background-color: greenyellow;
+    color: blue;
+    padding:10px;
+    height: 20px;
+}
