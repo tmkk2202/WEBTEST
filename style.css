@@ -1,17 +1,13 @@
-ul {
+.cont-top {
     display: flex;
-    flex-wrap: nowrap;
-    background-color: yellow;
-
+    background-color: gold;
+    flex-direction: row;
+    justify-content: space-arounds;
+    
 }
 
-li {
+.menuitem {
+    background-color: aqua;
+    padding: 10px;
 
-    background-color: aliceblue;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 78px;
-    font-size: 30px;
-    
 }
