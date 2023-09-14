@@ -2,17 +2,61 @@
     display: flex;
     background-color: gold;
     flex-direction: row;
-    justify-content: space-arounds;
+    justify-content: space-between;
     
 }
 
 .menuitem {
-    background-color: aqua;
+    background-color: whitesmoke;
     padding: 10px;
 
 }
 
 .bottom-img {
     width: 1100px;
-    height: 200px;
+    height: 200px
+}
+.cont-body {
+    background-color: burlywood;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-around;
+    
+        
+}
+.cont-left {
+    background-color: beige;
+    justify-content: left;
+    display: inline;
+    width: auto;
+
+}
+
+.brand  {
+    
+    background-color: greenyellow;
+    color: blue;
+    padding:10px;
+    height: 20px;
+    display: flex;
+    width: auto;
+   
+}
+
+.cont-mid {
+    background-color: blue;
+    width: auto;
+}
+
+.right-img {
+    height: 300px;
+    width: auto;
+}
+
+.login {
+    padding: 4%;
+}
+
+.submit {
+    margin-left: 14%;
 }
