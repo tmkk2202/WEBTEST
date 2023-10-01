@@ -12,3 +12,13 @@ console.log(age);
 name = "cc";
 console.log(name);
 
+if (true) {
+    var age =22;
+}
+console.log(age);
+if (true){
+    let name = "jj";
+    console.log(name);
+    
+}
+console.log(name);
