@@ -19,6 +19,7 @@ console.log(age);
 if (true){
     let name = "jj";
     console.log(name);
+
     
 }
 console.log(name);
