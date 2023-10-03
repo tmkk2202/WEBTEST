@@ -1,15 +1,39 @@
-console.log("hello guys!");
+const num = new Array(1,2,3,4,5);
+console.log(num);
+console.log(typeof num);
+ 
+const todos =[
+    {
+        id:1,
+        text: "take out trash",
+        isCompleted: true
+    },
+    {
+        id:2,
+        text: "meet with boss",
+        isCompleted: true
+    },
+    {
+        id:3,
+        text: "Dentist appointment",
+        isCompleted: false
+    }
+];
 
-if (true) {
-    var age =22;
-}
-console.log(age);
-if (true){
-    let name = "jj";
-    console.log(name);
+console.log(todos[1].text);
+console.log(todos[2].id);
+console.log(todos[0].text);
 
-    
-}
-console.log(name);
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
 
-git commit 2 to revert Text
+const name = () =>{
+    console.log("hihi")
+};
+ name();
+
+ const Component = () => {
+    return age>10 , <div> Peter </div> : <div> Jack </div>
+ };
+ console.log(Component(10));
+
