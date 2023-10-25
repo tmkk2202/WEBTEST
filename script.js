@@ -32,8 +32,8 @@ const name = () =>{
 };
  name();
 
- const Component = () => {
-    return age>10 , <div> Peter </div> : <div> Jack </div>
- };
- console.log(Component(10));
+
+
+
+
 
