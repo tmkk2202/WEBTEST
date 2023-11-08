@@ -61,12 +61,11 @@
 //     calculate = num1 ** 2 + num2;
 //     calculate += num2;
 //    }
-   
+
 //    num(2,4);
 
 // calculatenum; // => 9
 // console.log(calculatenum); //=> 9
-
 
 // let calculate = 0;
 // function num (num1, num2) {
@@ -115,7 +114,6 @@
 
 // console.log(names);
 
-
 // const user = {fname:'joe',lname: 'jack'};
 // for (key in user) console.log(user[key]);
 // for (e in user) console.log(user[e]);
@@ -127,7 +125,6 @@
 // for (val in user) console.log(val);
 // for (key in user) console.log (key);
 // for (val in user) console.log(user[val]);
-
 
 // let i = 0;
 // while (i < 10) {
@@ -183,14 +180,13 @@
 // const colours = [ 'red', "green", "blue"];
 // colours.map(func)
 
-
 // for loop test
 
 // let send_email = (email) => {
-    //     console.log("send normal email to :", email);
-    // }
-    
-    // let send_dis_email = (email) => {
+//     console.log("send normal email to :", email);
+// }
+
+// let send_dis_email = (email) => {
 //     console.log("send discount email to :" , email);
 // }
 
@@ -199,37 +195,33 @@
 //     let cust_DOB = customers[i].DOB;
 
 //     if (cust_DOB === '2.2') {
-    //         send_dis_email(cust_email)
-    //     } else {
-        //         send_email(cust_email);
-        //     }
-        //     }
-        
-        
-        
-        // let send_dis_email = (email) => {
-        //     console.log("send discount email to : ", email);
-        // }
-        
-        // for (let i = 0; i < customers.length; i++){
-        //     let cust_email = customers[i].email;
-        //     let cust_ph = customers[i].phnum;
-        //     let cust_DOB = customers[i].DOB;
-        //     console.log(cust_DOB, cust_email, cust_ph);
-        //     if (cust_DOB === '2.2.2000') {
-        //         send_dis_email(cust_email)
-        //     } else {
-        //         console.log("no email to send");
-                
-        //     }
-        // }
-        
-        
+//         send_dis_email(cust_email)
+//     } else {
+//         send_email(cust_email);
+//     }
+//     }
+
+// let send_dis_email = (email) => {
+//     console.log("send discount email to : ", email);
+// }
+
+// for (let i = 0; i < customers.length; i++){
+//     let cust_email = customers[i].email;
+//     let cust_ph = customers[i].phnum;
+//     let cust_DOB = customers[i].DOB;
+//     console.log(cust_DOB, cust_email, cust_ph);
+//     if (cust_DOB === '2.2.2000') {
+//         send_dis_email(cust_email)
+//     } else {
+//         console.log("no email to send");
+
+//     }
+// }
 
 // let send_normal_Email = (email) =>
 // {
-    //     console.log("send normalEmail to : ", email);
-    // }
+//     console.log("send normalEmail to : ", email);
+// }
 
 // let send_dis_email = (email) =>
 // {
@@ -246,40 +238,158 @@
 //         console.log(send_dis_email(cust_email));
 //     } else
 //     {
-    //         console.log(send_normal_Email(cust_email))
-    //     }
-    
-    // }
-    
-    
-    
-const customers = [  
-    {custname: 'aa', phnum: '1111', email: 'aa@mail.com', DOB: '1.1.2000'},
-    {custname: 'bb', phnum: '2222', email: 'bb@mail.com', DOB: '2.2.2000'},
-    {custname: 'cc', phnum: '3333', email: 'cc@mail.com', DOB: '3.3.2000'},
-    {custname: 'dd', phnum: '4444', email: 'dd@mail.com', DOB: '4.4.2000'}
-]
+//         console.log(send_normal_Email(cust_email))
+//     }
 
-let BD_email = ( email ) =>
-{
-    console.log( "BD email sending to customer's ", email );
-}
+// }
 
-let Normal_email = ( email ) =>
-{
-    console.log( "Normal email sending ", email );
-}
+// let BD_email = ( email ) =>
+// {
+//     console.log( "BD email sending to customer's ", email );
+// }
 
-for ( let i = 0; i < customers.length; i++ )
-{
-    // let c_email = customers[ i ].email;
-    // console.log(customers[i]);
-    if ( customers[ i ].DOB === '1.1.2000' )
-    {
-        console.log(BD_email(customers[i].email))
-    } else
-    {
-        console.log(Normal_email(customers[i].email))
-    }
-}
+// let Normal_email = ( email ) =>
+// {
+//     console.log( "Normal email sending ", email );
+// }
+
+// for ( let i = 0; i < customers.length; i++ )
+// {
+//     // let c_email = customers[ i ].email;
+//     // console.log(customers[i]);
+//     if ( customers[ i ].DOB === '1.1.2000' )
+
+//     {
+//         console.log(BD_email(customers[i].email))
+//     } else
+//     {
+//         console.log(Normal_email(customers[i].email))
+//     }
+// }
+
+// let num = 0;
+
+// function fname (f_parameter) {
+//     num = f_parameter ** 3;
+//     num += 5;
+//     num /= 2;
+// }
+
+// fname(1);
+// num
+
+// function fname (f_num, s_num, t_num) {
+//     num = f_num + s_num + t_num;
+//     num += 5;
+//     num /= 2;
+// }
+
+// fname(1,2,3);
+// num
+
+// function getNum (number){
+//     return number;
+// }
+
+// const thenum = getNum(22);
+// getNum
+
+// alert("hello")
+
+// let user = "mama";
+// let password = "000";
+// if (user === "mama" && password === "007"){
+//     "log into the email";
+// } else {
+//     "fail to log in";
+// }
+
+// const customers = [
+//   {
+//     custname: "aa",
+//     phnum: "1111",
+//     email: "aa@mail.com",
+//     DOB: "1.1.2000",
+//     mtype: "Gold_customer",
+//   },
+//   {
+//     custname: "bb",
+//     phnum: "2222",
+//     email: "bb@mail.com",
+//     DOB: "2.2.2000",
+//     mtype: "Gold_customer",
+//   },
+//   {
+//     custname: "cc",
+//     phnum: "3333",
+//     email: "cc@mail.com",
+//     DOB: "3.3.2000",
+//     mtype: "Silver_customer",
+//   },
+//   {
+//     custname: "dd",
+//     phnum: "4444",
+//     email: "dd@mail.com",
+//     DOB: "4.4.2000",
+//     mtype: "Gold_customer",
+//   },
+// ];
+
+// let item_price = 100;
+// let total_price = 0;
+// let mtype = "Gold_customer";
+// let goldmemberDis = 0.95;
+
+// let customers = [
+//   {
+//     custname: "aa",
+//     phnum: "1111",
+//     email: "aa@mail.com",
+//     DOB: "1.1.2000",
+//     mtype: "Gold_customer",
+//   },
+//   {
+//     custname: "bb",
+//     phnum: "2222",
+//     email: "bb@mail.com",
+//     DOB: "2.2.2000",
+//     mtype: "Gold_customer",
+//   },
+//   {
+//     custname: "cc",
+//     phnum: "3333",
+//     email: "cc@mail.com",
+//     DOB: "3.3.2000",
+//     mtype: "Silver_customer",
+//   },
+//   {
+//     custname: "dd",
+//     phnum: "4444",
+//     email: "dd@mail.com",
+//     DOB: "4.4.2000",
+//     mtype: "Gold_customer",
+//   },
+// ];
+
+// let item_price = 100;
+// let total_price = 0;
+// let goldmemberDis = 0.95;
+
+// if (customers.mtype === "Gold_customer"){
+//     total_price += item_price * goldmemberDis;
+// }else{
+//     total_price += item_price *1;
+// }
+
+
+// let orgprice = "100";
+// let tprice = "";
+// let mtype = "non-member";
+// const disprice = 0.85;
+// if (mtype === "GoldMember") {
+//     tprice += orgprice * disprice;
+// }else{
+//     tprice += orgprice;
+// }
+
 
